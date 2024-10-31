@@ -41,16 +41,16 @@ if (jabatan= 'panitia') and (waktutotal>420) then
         denda:=((waktutotal-420) div 5)*10000;
     end;
 if jabatan = ('ketua') then   
-    if waktutotal >420 then
+    if waktutotal >424 then
         denda:=((waktutotal-420) div 5)*20000;       
 if jabatan = ('wakil ketua') then   
-    if waktutotal >420 then
+    if waktutotal >424 then
         denda:=((waktutotal-420) div 5)*20000;        
 if jabatan = ('sekretaris umum') then   
-    if waktutotal >420 then
+    if waktutotal >424 then
         denda:=((waktutotal-420) div 5)*20000;        
 if jabatan = ('bendahara') then   
-    if waktutotal >420 then
+    if waktutotal >424 then
         denda:=((waktutotal-420) div 5)*20000;
 
 write('Denda: Rp.', denda:0:0);
