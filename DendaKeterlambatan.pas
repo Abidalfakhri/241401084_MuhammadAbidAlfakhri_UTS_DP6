@@ -1,6 +1,6 @@
 program keterlambatan;
 uses 
-crt,sysutils;
+crt;
 
 
 var
