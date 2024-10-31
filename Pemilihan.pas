@@ -26,8 +26,8 @@ for i:=1 to jumlahpemilih do
         else
         end;
 
-writeln(pilihanA);
-writeln(pilihanB);    
+writeln('pilihan a: ', pilihanA);
+writeln('pilihan b: ', pilihanB);    
 
 
 
